@@ -10,7 +10,11 @@ spec:
   selector:
     matchLabels:
       app: bgd
-    creationTimestamp: null
+  template:
+    metadata:
+      labels:
+        app: bgd
+      creationTimestamp: null
   spec:
     containers:
     - name: bgd
