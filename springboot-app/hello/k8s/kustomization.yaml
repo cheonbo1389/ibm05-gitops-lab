@@ -10,4 +10,4 @@ resources:
 images:
 - name: nostpark/hello-app
   newName: nostpark/hello-app
-  newTag: 55132da
+  newTag: eec85f5
